@@ -1,3 +1,3 @@
-import type { RouteRecordRaw } from 'vue-router'
+import type { RouteRecordOption } from '@ezview/gen-vue-routes'
 
-export default [] as RouteRecordRaw[]
+export default [] as RouteRecordOption[]

@@ -11,7 +11,7 @@
     "preview": "vite preview",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "generate-vue-routes": "npx tsx scripts/generate-routes.ts"
+    "gen-routes": "gen-vue-routes"
   },
   "dependencies": {
     "pinia": "^3.0.3",
@@ -19,18 +19,15 @@
     "vue-router": "^4.5.1"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^5.1.0",
-    "@babel/parser": "^7.28.0",
+    "@ezview/eslint-config": "^1.0.0",
+    "@ezview/gen-vue-routes": "^1.1.2",
     "@types/node": "^24.2.0",
     "@vitejs/plugin-vue": "^6.0.1",
     "@vue/tsconfig": "^0.7.0",
     "eslint": "^9.32.0",
-    "fast-glob": "^3.3.3",
     "less": "^4.4.0",
-    "recast": "^0.23.11",
-    "tsx": "^4.20.3",
     "typescript": "~5.9.2",
-    "vite": "^7.0.6",
+    "vite": "^7.1.5",
     "vue-tsc": "^3.0.5"
   }
 }
